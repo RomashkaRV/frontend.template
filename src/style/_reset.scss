@@ -38,6 +38,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+
   line-height: 1.5;
 }
 
@@ -50,6 +51,7 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
+
   display: block;
 }
 
@@ -72,6 +74,7 @@ select {
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }

@@ -1,4 +1,4 @@
-@import "breakpoints";
+@import "src/style/breakpoints";
 
 @mixin adaptive-xs {
   @media screen and (max-width: $xs-max) {
