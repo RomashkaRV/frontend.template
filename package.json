@@ -12,13 +12,12 @@
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
-    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
-    "init:git": "git config core.autocrlf false && git config core.eol lf"
+    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
   },
   "dependencies": {
-    "next": "14.2.10",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "sass": "^1.76.0"
   },
   "devDependencies": {
@@ -27,7 +26,6 @@
     "@types/react-dom": "18.2.19",
     "@vitejs/plugin-react": "4.2.1",
     "frontend.configs": "1.3.0",
-    "husky": "8.0.3",
     "lint-staged": "15.2.0",
     "react-html-props": "2.0.3",
     "typescript": "5.5.4"

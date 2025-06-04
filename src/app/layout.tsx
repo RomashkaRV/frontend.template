@@ -1,8 +1,9 @@
 import { Raleway } from "next/font/google";
 import type { ReactNode } from "react";
 
-import "style/index.scss";
 import Head from "./head";
+
+import "style/index.scss";
 
 const raleway = Raleway({
   subsets: ["latin", "cyrillic"],
@@ -14,13 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en" className={raleway.className}>
       <Head />
 
-      <body>
-        {children}
-
-        <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-
-        <script>eruda.init();</script>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
