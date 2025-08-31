@@ -1,0 +1,9 @@
+@use "style/mixins/adaptive" ;
+
+.page {
+  background-color: var(--orange-500);
+
+  @include adaptive.adaptive-xs {
+    background-color: var(--lime-600);
+  }
+}

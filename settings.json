@@ -1,0 +1,336 @@
+{
+  "sections": [
+    {
+      "title": "Фундамент",
+      "options": [
+        {
+          "label": "Ленточный монолитный ж/б",
+          "value": "ribbon",
+          "price": null,
+          "details": {
+            "variants": [
+              {
+                "label": "размер 200 x 700 мм",
+                "value": "200x700",
+                "details": {
+                  "workPrice": 332080,
+                  "materials": 435219,
+                  "days": 20
+                }
+              },
+              {
+                "label": "размер 300 x 900 мм",
+                "value": "300x900",
+                "details": {
+                  "workPrice": 435682,
+                  "materials": 559633,
+                  "days": 21
+                }
+              },
+              {
+                "label": "размер 400 x 1000 мм",
+                "value": "400x1000",
+                "details": {
+                  "workPrice": 575205,
+                  "materials": 689906,
+                  "days": 22
+                }
+              },
+              {
+                "label": "размер 500 x 1100 мм",
+                "value": "500x1100",
+                "details": {
+                  "workPrice": 705632,
+                  "materials": 803220,
+                  "days": 25
+                }
+              },
+              {
+                "label": "размер 600 x 1200 мм",
+                "value": "600x1200",
+                "details": {
+                  "workPrice": 816017,
+                  "materials": 1857274,
+                  "days": 30
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Забивные Ж/Б сваи",
+          "value": "piles",
+          "details": {
+            "variants": [
+              {
+                "label": "150 x 150 x 3000 мм",
+                "value": "150x150x3000",
+                "details": {
+                  "workPrice": 154477,
+                  "materials": 306796,
+                  "days": 2
+                }
+              },
+              {
+                "label": "150 x 150 x 4000 мм",
+                "value": "150x150x4000",
+                "details": {
+                  "workPrice": 182690,
+                  "materials": 439382,
+                  "days": 2
+                }
+              },
+              {
+                "label": "200 x 200 x 3000 мм",
+                "value": "200x200x3000",
+                "details": {
+                  "workPrice": 205970,
+                  "materials": 501820,
+                  "days": 2
+                }
+              },
+              {
+                "label": "200 x 200 x 4000 мм",
+                "value": "200x200x4000",
+                "details": {
+                  "workPrice": 221695,
+                  "materials": 672177,
+                  "days": 2
+                }
+              },
+              {
+                "label": "200 x 200 x 5000 мм",
+                "value": "200x200x5000",
+                "details": {
+                  "workPrice": 242662,
+                  "materials": 789345,
+                  "days": 2
+                }
+              },
+              {
+                "label": "200 x 200 x 6000 мм",
+                "value": "200x200x6000",
+                "details": {
+                  "workPrice": 283517,
+                  "materials": 1054053,
+                  "days": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Свайно-ростверковый ж/б",
+          "value": "piledRaftFoundation",
+          "details": {
+            "variants": [
+              {
+                "label": "ростверк 200x300 мм",
+                "value": "200x300",
+                "details": {
+                  "workPrice": 312038,
+                  "materials": 465282,
+                  "days": 20
+                }
+              },
+              {
+                "label": "ростверк 300x600 мм",
+                "value": "300x600",
+                "details": {
+                  "workPrice": 464357,
+                  "materials": 535583,
+                  "days": 23
+                }
+              },
+              {
+                "label": "ростверк 400x900 мм",
+                "value": "400x900",
+                "details": {
+                  "workPrice": 868742,
+                  "materials": 1095987,
+                  "days": 25
+                }
+              },
+              {
+                "label": "ростверк 500x1200 мм",
+                "value": "500x1200",
+                "details": {
+                  "workPrice": 1082575,
+                  "materials": 1509623,
+                  "days": 27
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Монолитная ж/б плита",
+          "value": "reinforcedConcreteSlab",
+          "details": {
+            "variants": [
+              {
+                "label": "200 мм",
+                "value": "200",
+                "details": {
+                  "workPrice": 665085,
+                  "materials": 824496,
+                  "days": 30
+                }
+              },
+              {
+                "label": "300 мм",
+                "value": "300",
+                "details": {
+                  "workPrice": 752499,
+                  "materials": 1318916,
+                  "days": 33
+                }
+              },
+              {
+                "label": "400 мм",
+                "value": "400",
+                "details": {
+                  "workPrice": 1084887,
+                  "materials": 1971513,
+                  "days": 35
+                }
+              },
+              {
+                "label": "500 мм",
+                "value": "500",
+                "details": {
+                  "workPrice": 1242756,
+                  "materials": 2218184,
+                  "days": 37
+                }
+              },
+              {
+                "label": "600 мм",
+                "value": "600",
+                "details": {
+                  "workPrice": 1577149,
+                  "materials": 2341673,
+                  "days": 40
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Утепленная шведская плита",
+          "value": "insulatedSwedishSlab",
+          "details": {
+            "variants": [
+              {
+                "label": "200 мм",
+                "value": "200",
+                "details": {
+                  "workPrice": 918847,
+                  "materials": 1580078,
+                  "days": 32
+                }
+              },
+              {
+                "label": "300 мм",
+                "value": "300",
+                "details": {
+                  "workPrice": 1131138,
+                  "materials": 1956713,
+                  "days": 37
+                }
+              },
+              {
+                "label": "400 мм",
+                "value": "400",
+                "details": {
+                  "workPrice": 1244452,
+                  "materials": 2121365,
+                  "days": 39
+                }
+              },
+              {
+                "label": "500 мм",
+                "value": "500",
+                "details": {
+                  "workPrice": 1368712,
+                  "materials": 2302668,
+                  "days": 42
+                }
+              },
+              {
+                "label": "600 мм",
+                "value": "600",
+                "details": {
+                  "workPrice": 1505460,
+                  "materials": 2502163,
+                  "days": 45
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Ленточный из ФБС",
+          "value": "precastConcreteStripFoundation",
+          "details": {
+            "variants": [
+              {
+                "label": "толщина 300 мм",
+                "value": "300",
+                "details": {
+                  "workPrice": 377868,
+                  "materials": 566571,
+                  "days": 20
+                }
+              },
+              {
+                "label": "толщина 400 мм",
+                "value": "400",
+                "details": {
+                  "workPrice": 503208,
+                  "materials": 755736,
+                  "days": 20
+                }
+              },
+              {
+                "label": "толщина 500 мм",
+                "value": "500",
+                "details": {
+                  "workPrice": 629472,
+                  "materials": 944439,
+                  "days": 20
+                }
+              },
+              {
+                "label": "толщина 600 мм",
+                "value": "600",
+                "details": {
+                  "workPrice": 755736,
+                  "materials": 1133142,
+                  "days": 20
+                }
+              }
+            ]
+          }
+        },
+        {
+          "label": "Цокольный этаж из ФБС",
+          "value": "basementFbsBlocks",
+          "details": {
+            "variants": [
+              {
+                "label": "толщина 300 мм",
+                "value": "300",
+                "details": {
+                  "workPrice": 2701658,
+                  "materials": 3224599,
+                  "days": 20
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

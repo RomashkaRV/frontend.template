@@ -1,25 +1,25 @@
-@import "src/style/breakpoints";
+@use "../breakpoints";
 
 @mixin adaptive-xs {
-  @media screen and (max-width: $xs-max) {
+  @media screen and (max-width: breakpoints.$xs-max) {
     @content;
   }
 }
 
 @mixin adaptive-sm {
-  @media screen and (max-width: $sm-max) {
+  @media screen and (max-width: breakpoints.$sm-max) {
     @content;
   }
 }
 
 @mixin adaptive-md {
-  @media screen and (max-width: $md-max) {
+  @media screen and (max-width: breakpoints.$md-max) {
     @content;
   }
 }
 
 @mixin adaptive-lg {
-  @media screen and (max-width: $lg-max) {
+  @media screen and (max-width: breakpoints.$lg-max) {
     @content;
   }
 }
