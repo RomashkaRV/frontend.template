@@ -4,34 +4,35 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001 --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 3001",
     "lint": "next lint",
     "quality": "npm run lint:ts && npm run lint:scss",
     "quality:fix": "npm run lint:ts:fix && npm run lint:scss:fix",
-    "lint:ts": "eslint \"**/*.{ts,tsx}\"",
+    "lint:ts": "next lint",
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
   },
   "dependencies": {
-    "@romashka_rv/frontend-config": "^1.2.86",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "sass": "^1.85.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "8.1.0",
     "@next/eslint-plugin-next": "^15.5.2",
     "@types/node": "22.7.5",
     "@types/react": "19.0.3",
     "@types/react-dom": "19.0.2",
     "eslint": "9.34.0",
-    "eslint-plugin-next": "^0.0.0",
     "lint-staged": "15.3.0",
     "react-html-props": "2.0.3",
-    "typescript": "5.6.3"
+    "typescript": "5.6.3",
+    "string-replace-loader": "3.1.0",
+    "@romashka_rv/frontend-config": "^2.6.0"
   },
   "engines": {
     "node": ">=20.11.0"

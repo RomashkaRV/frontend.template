@@ -1,10 +1,8 @@
 import Link from "next/link";
 
-import style from "./not-found.module.scss";
-
 export default function NotFound() {
   return (
-    <div className={style.page}>
+    <div className="notFound">
       <div>
         <p>Ups...</p>
 

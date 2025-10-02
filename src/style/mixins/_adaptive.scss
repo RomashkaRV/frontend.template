@@ -1,24 +1,24 @@
 @use "../breakpoints";
 
-@mixin adaptive-xs {
+@mixin xs {
   @media screen and (max-width: breakpoints.$xs-max) {
     @content;
   }
 }
 
-@mixin adaptive-sm {
+@mixin sm {
   @media screen and (max-width: breakpoints.$sm-max) {
     @content;
   }
 }
 
-@mixin adaptive-md {
+@mixin md {
   @media screen and (max-width: breakpoints.$md-max) {
     @content;
   }
 }
 
-@mixin adaptive-lg {
+@mixin lg {
   @media screen and (max-width: breakpoints.$lg-max) {
     @content;
   }
@@ -27,15 +27,15 @@
 @mixin adapt($property, $lg, $md, $sm, $xs) {
   #{$property}: $lg;
 
-  @include adaptive-md {
+  @include md {
     #{$property}: $md;
   }
 
-  @include adaptive-sm {
+  @include sm {
     #{$property}: $sm;
   }
 
-  @include adaptive-xs {
+  @include xs {
     #{$property}: $xs;
   }
 }

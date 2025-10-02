@@ -38,7 +38,17 @@ next-env.d.ts
 .vscode
 .idea
 
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# pm2
+pm2.json
 
+# Sentry Config File
+.sentryclirc
+
+.npmrc
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

@@ -1,5 +1,8 @@
 @use "reset";
-@use "colors";
+@use "theme";
+@use "pages/not-found";
+@use "pages/global-error";
+@import "https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap";
 
 body {
   height: 100%;
@@ -7,4 +10,6 @@ body {
   font-family: Geologica, sans-serif;
 
   overflow: hidden;
+
+  background-color: var(--slate-50);
 }
